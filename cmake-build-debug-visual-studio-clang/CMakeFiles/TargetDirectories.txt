@@ -1,0 +1,12 @@
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/rulang.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/test_lexer_rulang.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/doc.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/intrinsics_gen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/omp_gen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/acc_gen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/ARMTargetParserTableGen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/AArch64TargetParserTableGen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/RISCVTargetParserTableGen.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/RUN_TESTS.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/ALL_BUILD.dir
+D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,16 @@
+"D:\_programs\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_C_COMPILER=clang-cl.exe -DCMAKE_CXX_COMPILER=clang-cl.exe -G "Visual Studio 17 2022" -S D:\spaceless\projs\rulang -B D:\spaceless\projs\rulang\cmake-build-debug-visual-studio-clang
+warning: compiler is 
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.19045.
+-- Found doxygen 1.12.0
+-- Found LLVM 20.0.0git
+-- Using LLVMConfig.cmake in: D:/llvm/build/lib/cmake/llvm
+-- LLVM definitions: -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+-- LLVM libraries: LLVMSupport;LLVMCore
+-- Boost found: 1.86.0
+-- Boost libraries directory: 
+-- Boost libraries: Boost::exception
+-- Boost diag defs: -DBOOST_LIB_DIAGNOSTIC
+-- Boost include directory: D:/_libs/boost_1_86_0
+-- Configuring done (5.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/spaceless/projs/rulang/cmake-build-debug-visual-studio-clang

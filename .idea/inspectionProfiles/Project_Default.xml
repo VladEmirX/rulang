@@ -1,0 +1,8 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Misra" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+      <option name="myMisraCPPChecks" value="clion-misra-cpp2008-*,-clion-misra-cpp2008-6-3-1,-clion-misra-cpp2008-6-4-1,-clion-misra-cpp2008-6-6-5,-clion-misra-cpp2008-5-0-13,-clion-misra-cpp2008-5-3-1,-clion-misra-cpp2008-4-5-2,-clion-misra-cpp2008-6-4-5,-clion-misra-cpp2008-6-4-4,-clion-misra-cpp2008-0-1-7,-clion-misra-cpp2008-11-0-1,-clion-misra-cpp2008-2-13-4,-clion-misra-cpp2008-4-5-1,-clion-misra-cpp2008-5-2-4,-clion-misra-cpp2008-6-5-1,-clion-misra-cpp2008-5-0-6,-clion-misra-cpp2008-7-3-4,-clion-misra-cpp2008-6-2-1,-clion-misra-cpp2008-8-0-1,-clion-misra-cpp2008-9-5-1,-clion-misra-cpp2008-9-6-2,-clion-misra-cpp2008-5-0-11,-clion-misra-cpp2008-6-4-6,-clion-misra-cpp2008-5-3-3" />
+    </inspection_tool>
+  </profile>
+</component>

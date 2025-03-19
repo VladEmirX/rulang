@@ -1,0 +1,7 @@
+# ninja log v6
+46	1650	7536703795146702	build.ninja	7e088e6333a345ee
+64	4996	7533224895149134	CMakeFiles/rulang.dir/cmake_pch.cxx.obj	b032474d31f86e6e
+59	1441	7533240915597812	CMakeFiles/test_lexer_rulang.dir/test/test_lexer/lexer.cpp.obj	c1cc3d687005f4ea
+6667	7660	7533224961182888	CMakeFiles/test_lexer_rulang.dir/test/main.cpp.obj	98a3d1214c9e661c
+876	1253	7533238607791158	rulang.exe	2bf5e42c5d8958b0
+1442	1926	7533240929429965	test_lexer_rulang.exe	b7599467ccb1da07

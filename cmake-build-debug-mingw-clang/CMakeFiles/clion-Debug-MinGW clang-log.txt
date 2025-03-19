@@ -1,0 +1,53 @@
+"D:\_programs\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/_programs/CLion 2024.2.0.1/bin/ninja/win/x64/ninja.exe" -DCMAKE_C_COMPILER=D:/_programs/VS/2022/VC/Tools/Llvm/x64/bin/clang.exe -DCMAKE_CXX_COMPILER=D:/_programs/VS/2022/VC/Tools/Llvm/x64/bin/clang++.exe -G Ninja -S D:\spaceless\projs\rulang -B D:\spaceless\projs\rulang\cmake-build-debug-mingw-clang
+warning: compiler is 
+-- The CXX compiler identification is Clang 18.1.8 with GNU-like command-line
+-- Detecting CXX compiler ABI info
+CMake Error in D:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/CMakeScratch/TryCompile-fwsnqb/CMakeLists.txt:
+  MSVC_DEBUG_INFORMATION_FORMAT value 'ProgramDatabase' not known for this
+  CXX compiler.
+
+
+CMake Error at D:/_programs/CLion 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile):
+  Failed to generate test project build system.
+Call Stack (most recent call first):
+  D:/_programs/CLion 2024.2.0.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  CMakeLists.txt:14 (project)
+
+
+-- Configuring incomplete, errors occurred!
+
+Cannot get compiler information:
+	Compiler exited with error code 2: D:\_programs\VS\2022\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe @C:\Users\Admin\AppData\Local\Temp\response-file5999407032446006071 C:\Users\Admin\AppData\Local\Temp\compiler-file10022041871392179044 | @response-file5999407032446006071=/TP /DBOOST_LIB_DIAGNOSTIC "/D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS" /ID:/llvm/llvm-project/llvm/include /ID:/llvm/build/include /ID:/_libs/boost_1_86_0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi --std=gnu++2c /FID:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx /Be /Bd /E /w /wd4067
+	��⨬������騩 ��������� Microsoft (R) C/C++ ���ᨨ 19.42.34433 ��� x64
+	(C) ��௮��� �������� (Microsoft Corporation).  �� �ࠢ� ���饭�.
+	
+	/std:c++latest �।��⠢����� ��� �।���⥫쭠� ����� �몮��� �㭪権 �� ��᫥�����
+	ࠡ�祣� �୮���� C++. �� �ਢ����㥬 ᮮ�饭�� �� �訡��� � �।������� � ���襭��.
+	������ ����� ��������, �� �� �㭪樨 �।��⠢������ ��� ����, ��� �����প� � �����
+	���������� ��� ���� 㤠���� �� ��� ࠧ���� ࠡ�祣� �୮����. �������⥫�� ᢥ�����:
+	https://go.microsoft.com/fwlink/?linkid=2045807.
+	
+	all:
+		@cd D:\spaceless\projs\rulang\cmake-build-debug-mingw-clang
+		@set INCLUDE=
+		@set LIB=
+		@set LIBPATH=
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		D:\_programs\VS\2022\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe @<< C:\Users\Admin\AppData\Local\Temp\compiler-file10022041871392179044
+	/TP /DBOOST_LIB_DIAGNOSTIC "/D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS" /ID:/llvm/llvm-project/llvm/include /ID:/llvm/build/include /ID:/_libs/boost_1_86_0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi --std=gnu++2c /FID:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx /Be /Bd /E /w /wd4067<<
+	
+	cl /TP /DBOOST_LIB_DIAGNOSTIC "/D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS" /ID:/llvm/llvm-project/llvm/include /ID:/llvm/build/include /ID:/_libs/boost_1_86_0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi --std=gnu++2c /FID:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx /Be /Bd /E /w /wd4067
+	
+	cl: ��������� ��ப� warning D9002: �ய�� �������⭮�� ��ࠬ��� "--std=gnu++2c"
+	compiler-file10022041871392179044
+	ENC_CWD=D:\spaceless\projs\rulang\cmake-build-debug-mingw-clang
+	ENC_CL=D:\_programs\VS\2022\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe
+	ENC_SRC=C:\Users\Admin\AppData\Local\Temp\compiler-file10022041871392179044
+	ENC_PDB=D:\spaceless\projs\rulang\cmake-build-debug-mingw-clang\vc140.pdb
+	ENC_CMD=-TP -DBOOST_LIB_DIAGNOSTIC -D"_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS" -ID:\llvm\llvm-project\llvm\include -ID:\llvm\build\include -ID:\_libs\boost_1_86_0 -DWIN32 -D_WINDOWS -EHs -EHc -Ob0 -Od -RTC1 -std:c++latest -MDd -Zi -FID:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx -Bd -E -w -wd4067 -X
+	`D:\_programs\VS\2022\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\c1xx.dll -zm0x00007FF74B05CEC0 -il 1549137440672 -typedil -f C:\Users\Admin\AppData\Local\Temp\compiler-file10022041871392179044 -Ze -D_MSC_EXTENSIONS -Zp16 -Focompiler-file10022041871392179044.obj -Fe compiler-file10022041871392179044.exe -pc \:/ -Fdvc140.pdb -D_MSC_VER=1942 -D_MSC_FULL_VER=194234433 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -DBOOST_LIB_DIAGNOSTIC -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I D:\llvm\llvm-project\llvm\include -I D:\llvm\build\include -I D:\_libs\boost_1_86_0 -DWIN32 -D_WINDOWS -EHs -D_CPPUNWIND -EHc -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -std:c++latest -MDd -D_DEBUG -D_MT -D_DLL -Zi -FI D:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx -Bd -E -W 0 -wd 4067 -in_memory_il'
+	C:\Users\Admin\AppData\Local\Temp\compiler-file10022041871392179044: fatal error C1083: �� ������� ������� ���� ���������: D:/spaceless/projs/rulang/cmake-build-debug-mingw-clang/CMakeFiles/rulang.dir/Debug/cmake_pch.hxx: No such file or directory,
+	
+	
